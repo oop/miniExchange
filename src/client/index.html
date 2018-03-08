@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>miniExchange</title>
+    <link rel="stylesheet" href="/style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.4/socket.io.slim.js"></script>
+    <script src="/api.js"></script>
+</head>
+<body>
+    <p>miniExchange GUI</p>
+    <input type="text" id="countryCode" value="US" placeholder="Country code">
+    <input type="text" id="category" value="Automobile" placeholder="Category">
+    <input type="number" id="baseBid" value="0.2" placeholder="Bid"><br>
+    <button onclick="window.get()">Place bid</button>
+<hr>
+<textarea id="result">#server responses</textarea><br>
+<textarea id="logs">#server logs</textarea>
+</body>
+</html>

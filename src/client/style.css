@@ -1,0 +1,50 @@
+html, body {
+    padding: 20px;
+    background: #333333;
+}
+
+* {
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+textarea {
+    width: 100%;
+    height: 200px;
+    background: #e2e2e2;
+    outline: none;
+    border: 0;
+}
+
+input {
+    padding: 5px;
+    background: #464646;
+    font-size: 22px;
+    color: white;
+    border: 0;
+}
+
+button {
+    border: 0;
+    background: #d0d0d0;
+    height: 35px;
+    font-size: 16px;
+    outline: none;
+    width: 279px;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+button:hover, input:hover, textarea:hover {
+    box-shadow: 0 0 20px 0px #bbbbbb;
+}
+
+p {
+    font-size: 32px;
+    color: white;
+    font-weight: bolder;
+    font-family: sans-serif;
+}

@@ -1,0 +1,16 @@
+{
+  "cluster": {
+    "clusterName": "miniE_cluster",
+    "autoRestart": true
+  },
+  "server": {
+    "port": 80
+  },
+  "database": {
+    "name": "miniExchange",
+    "address": "mongodb://localhost:27017/"
+  },
+  "app": {
+    "minBid": 0.1
+  }
+}
