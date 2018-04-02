@@ -2,11 +2,11 @@
   "name": "miniExchange",
   "version": "1.0.0",
   "author": "Rufat Mammadli",
-  "description": "An assignment task",
+  "description": "A mini stock exchange example.",
   "main": "index.js",
   "scripts": {
     "start": "npm i && node index",
-    "test": "node cli"
+    "cli": "node cli"
   },
   "license": "ISC",
   "dependencies": {
