@@ -1,2 +1,2 @@
 # miniExchange
-This was made for a job assignment.
+A mini stock exchange example.
